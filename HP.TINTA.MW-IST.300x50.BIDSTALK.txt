@@ -1,0 +1,26 @@
+<!--
+MobileAds Ad Tag
+Campaign: HP TINTA | MW-IST | 300x50 | BIDSTALK
+DSP: Bidstalk
+Ad Tag Type: Javascript
+Ad Format: Interstitial
+-->
+<script type='text/javascript'>
+var rma = {
+'campaignId':'817769094b545c0f0d4907f9b152c2db',
+'secure':true,
+'ifViewability':true,
+'cb':'{CACHEBUSTER}',
+'fet':'{CLICK_URL}',
+'customize':{
+'custTracker':[
+'https://www.cdn.serving1.net/a/analytic.htm?uid=0&isNew={{isNew}}&referredUrl={{referredUrl}}&rmaId={{rmaId}}&domainId=0&pageLoadId={{pageLoadId}}&userId={{userId}}&pubUserId=0&campaignId={{campaignId}}&browser={{browser}}&os={{os}}&domain={{domain}}&callback=trackSuccess&callback=trackSuccess&type={{rmatype}}&tt={{rmatt}}&value={{rmavalue}}']},
+'tags':{
+'dsp':'Bidstalk',
+'exchange':'{EXCHANGE_NAME}',
+'inventory':'{APP_NAME}',
+'uniqueId':'{DEVICE_PLATFORM_ID}'
+}
+};
+</script>
+<img src='https://www.cdn.serving1.net/t?i=817769094b545c0f0d4907f9b152c2db&cb={CACHEBUSTER}&dsp=Bidstalk&exchange={EXCHANGE_NAME}&inventory={APP_NAME}&uniqueId={DEVICE_PLATFORM_ID}&customId=noblock' width='1px' height='1px' style='display:none' onerror="this.onerror=null;this.src='https://track.richmediaads.com/t?i=817769094b545c0f0d4907f9b152c2db&cb={CACHEBUSTER}&dsp=Bidstalk&exchange={EXCHANGE_NAME}&inventory={APP_NAME}&uniqueId={DEVICE_PLATFORM_ID}&customId=adblock';" /><script type='text/javascript' src='https://cdn.serving1.net/general.js'></script>
